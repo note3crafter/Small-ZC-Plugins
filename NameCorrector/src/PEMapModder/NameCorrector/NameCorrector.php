@@ -20,7 +20,7 @@ namespace PEMapModder\NameCorrector;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
-use pocketmine\network\protocol\Info as ProtocolInfo;
+use pocketmine\network\mcpe\protocol\ProtocolInfo;
 use pocketmine\plugin\PluginBase;
 
 class NameCorrector extends PluginBase implements Listener{
